@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Praneeth Ambati - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2196F3);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #2196F3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #FF9800;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      background: #2196F3;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #FF9800;
+    }
+    .highlight {
+      background: #FFEB3B;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+    .button {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background 0.3s;
+      margin-top: 1rem;
+      margin-right: 0.5rem;
+    }
+    .button:hover {
+      background: #45A049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Praneeth Ambati</h1>
+    <p>Diploma in Computer Science and Engineering (Pursuing) | Passionate About Software Development</p>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#goals">Career Goals</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#qualities">Professional Qualities</a>
+    <a href="#projects">Projects & Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is <strong>Praneeth Ambati</strong>. I am currently pursuing my Diploma in Computer Science and Engineering. I am passionate about software development, problem-solving, and contributing to meaningful technology projects. My goal is to leverage my technical and interpersonal skills to make a positive impact in the technology industry.</p>
+    </section>
+    <section id="goals">
+      <h2>Career Goals</h2>
+      <ul>
+        <li>Successfully complete my Diploma in Computer Science and Engineering with high academic performance.</li>
+        <li>Gain practical experience through internships, freelance work, and real-world projects.</li>
+        <li>Develop strong programming and software development skills in languages like Python, C, C++, PHP, and web technologies.</li>
+        <li>Contribute to open-source projects and collaborate effectively in team environments.</li>
+        <li>Secure a rewarding position in the technology sector where I can continue to learn, grow, and make a difference.</li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Programming Languages: Python, C, C++, PHP, HTML, CSS, JavaScript</li>
+        <li>Problem-Solving and Debugging</li>
+        <li>Version Control: Git and GitHub</li>
+        <li>Software Development Fundamentals</li>
+        <li>Critical Thinking and Analytical Skills</li>
+        <li>Effective Communication and Collaboration</li>
+        <li>Time Management and Organization</li>
+      </ul>
+    </section>
+    <section id="qualities">
+      <h2>Professional Qualities</h2>
+      <ul>
+        <li>Honest and Trustworthy</li>
+        <li>Polite and Respectful</li>
+        <li>Responsible and Self-Motivated</li>
+        <li>Positive Attitude towards Learning and Growth</li>
+        <li>Adaptable and Open-Minded to New Challenges</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects & Achievements</h2>
+      <ul>
+        <li><strong>Personal Portfolio Website:</strong> Designed and developed a personal website using HTML and CSS to showcase my skills, projects, and professional background.</li>
+        <li><strong>Battery Monitoring System:</strong> Implemented a Python-based battery monitoring application that proactively alerts the user with a voice message (e.g., "Hey Praneeth, your battery percentage is less than 10%, please charge your PC.") when the battery level drops below 10% and the device is not charging. The project leverages <code>psutil</code> for system information and <code>pyttsx3</code> for voice alerts. This project demonstrates my ability to create useful, user-focused software tools that improve device reliability and prevent data loss.</li>
+        <li>Participated in college-level coding competitions, demonstrating problem-solving and teamwork skills.</li>
+        <li>Volunteered as a peer tutor, helping fellow students with programming concepts and assignments.</li>
+        <li>Attended workshops and webinars on emerging technologies to stay current with industry trends.</li>
+      </ul>
+      <p><strong>Project Downloads:</strong></p>
+      <a href="battery_monitoring.py" class="button" download>Download Battery Monitoring Script (.py)</a>
+      <a href="battery_monitoring_project.docx" class="button" download>Download Battery Monitoring Project Report (.docx)</a>
+      <a href="resume.pdf" class="button" download>Download Resume (Coming Soon)</a>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you would like to learn more about my work or discuss opportunities, please feel free to reach out to me:</p>
+      <p>Email: <a href="mailto:ambatipraneethofficial@gmail.com">ambatipraneethofficial@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Praneeth Ambati. All rights reserved.
+  </footer>
+</body>
+</html>
